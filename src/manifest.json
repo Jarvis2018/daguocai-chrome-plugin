@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "大锅菜",
+  "description": "一个 Chrome 扩展，用于聚合各个 AI",
+  "version": "1.0.0",
+  "icons": {
+    "16": "favicon.png",
+    "32": "favicon.png",
+    "48": "favicon.png",
+    "128": "favicon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/pages/newtab/index.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
